@@ -1,4 +1,4 @@
-const db = require('../../data/db-Config');
+const db = require('../data/db-Config');
 
 
 
@@ -27,7 +27,7 @@ function find() {
 }
 
 
-function findById(username) {
+function findByusername(username) {
   return db("users").where({ username}).first();
 }
 
