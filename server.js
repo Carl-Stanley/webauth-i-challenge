@@ -1,9 +1,10 @@
 const express = require('express');
 
-//const resourcesRouter = require('./api/routes/resourcerouter.js')
+const registerRouter = require('./api/routes/registerrouter.js')
 
-//const projectRouter = require('./api/routes/projectrouter.js')
+const loginRouter = require('./api/routes/loginrouter.js')
 
+const usersRouter = require('./api/routes/usersrouter.js')
 
 
 const db = require('./data/db-Config');
