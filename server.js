@@ -13,10 +13,10 @@ const server = express();
 server.use(express.json());
 
 
-server.use('/api/register', projectRouter)
+server.use('/api/register', registerRouter)
 
-server.use('/api/login', resourcesRouter)
+server.use('/api/login', loginRouter)
 
-server.use('/api/users', resourcesRouter)
+server.use('/api/users', usersRouter)
 
 module.exports = server;
